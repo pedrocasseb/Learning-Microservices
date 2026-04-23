@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class FlightInstanceServiceImpl implements FlightInstanceService {
     @Override
-    public FlightInstanceResponse createFlightInstance(Long userId, FlightInstanceRequest flightInstanceRequest) {
+    public FlightInstanceResponse createFlightInstance(Long airlineId, FlightInstanceRequest flightInstanceRequest) {
         return null;
     }
 

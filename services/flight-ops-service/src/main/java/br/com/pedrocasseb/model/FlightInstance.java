@@ -45,6 +45,9 @@ public class FlightInstance {
     @Column(name = "available_seats", nullable = false)
     private Integer availableSeats;
 
+    @Column(name = "total_seats", nullable = false)
+    private Integer totalSeats;
+
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private FlightStatus status;
